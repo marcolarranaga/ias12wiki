@@ -1,7 +1,7 @@
 # PhD wiki
 ## NTATL008 Implementation
 ### Compiling numerical models - IRENE
-* [oasis3 mct](NTATL008/models/compiling_oasis3-mct)
+* [oasis3_mct](NTATL008/models/compiling_oasis3-mct)
 * [xios-2.5](NTATL008/models/compiling_xios-2.5)
 * [wrf4.1.3_uncoupled](NTATL008/models/compiling_wrf4.1.3_uncoupled)
 
