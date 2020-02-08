@@ -5,3 +5,6 @@
 * [xios-2.5](NTATL008/models/compiling_xios-2.5)
 * [wrf4.1.3_uncoupled](NTATL008/models/compiling_wrf4.1.3_uncoupled)
 * [wps4.1.3](NTATL008/models/compiling_wps4.1.3)
+
+
+* [wps](NTATL008/models/compiling_wps4.1.3.md)
