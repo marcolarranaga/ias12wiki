@@ -1,4 +1,4 @@
-## Compiling WRF 4.1.3 for uncoupling case
+## Compiling WRF 4.1.3 for uncoupled case
 
 Download WRF model from the UCAR site
 To compile WRF:
