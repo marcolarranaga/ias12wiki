@@ -55,11 +55,19 @@ The outputs will be located in:
 ```
 ---
 
-Modify the .db file to include 1 (number of month runnings), 1 (first time step) and the numbers of time steps to complete the fist month (1488 to complete 31 days with a time step of 1800 s.
+Create a .db file with the corresponding configuration name, in this case: NTATL008-ML001.db
 
-Example:
+The the .db file must include the following information:
 
-1 1 1488
+```bash
+1 1 17520
+```
+
+where:
+
+- 1 :arrow_left: number of month runnings
+- 1 <- first time step
+- 17520 < - numbers of time steps to complete the fist month (17520 to complete 365 days with a time step of 180 s).
 
 To compile Nemo:
 
