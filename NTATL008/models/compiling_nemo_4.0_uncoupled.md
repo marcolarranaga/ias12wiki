@@ -66,19 +66,18 @@ The the .db file must include the following information:
 where:
 
 - 1 &larr; number of month runnings
-- 1 <- first time step
-- 17520 < - numbers of time steps to complete the fist month (17520 to complete 365 days with a time step of 180 s).
+- 1 &larr; first time step
+- 17520 &larr; numbers of time steps to complete the fist month (17520 to complete 365 days with a time step of 180 s).
 
 To compile Nemo:
 
 ```bash
 ./makenemo -r ORCA2_ICE_PISCES -n NTATL025-NOW-ML00 -m X64_IRENE -j 4
 ```
+Where:
 
-where:
+ORCA2_ICE_PISCES &rarr; Configuration name
 
-ORCA2_ICE_PISCES —> Configuration name
+NTATL025-NOW-ML00 &rarr; Configuration folder
 
-NTATL025-NOW-ML00 —> Configuration folder
-
-X64_IRENE —> ?
+X64_IRENE &rarr; IRENE configuration
