@@ -27,6 +27,19 @@ Check the cpp file to see that it does not contain key_oasis3 and key_agrif:
 bld::tool::fppkeys key_diahth key_iomput key_mpp_mpi key_nosignedzero
 ```
 
+To compile Nemo:
+
+```bash
+./makenemo -r ORCA2_ICE_PISCES -n NTATL025-NOW-ML00 -m X64_IRENE -j 4
+```
+Where:
+
+ORCA2_ICE_PISCES &rarr; Configuration name
+
+NTATL025-NOW-ML00 &rarr; Configuration folder
+
+X64_IRENE &rarr; IRENE configuration
+
 ---
 **Esto debe estar en la secci'on run_nemo_uncoupled**
 
@@ -53,7 +66,6 @@ The outputs will be located in:
 ```bash
 /ccc/store/cont005/legos/legos/NOW/NTATL025/<Name experiment>
 ```
----
 
 Create a .db file with the corresponding configuration name, in this case: NTATL008-ML001.db
 
@@ -69,15 +81,5 @@ where:
 - 1 &larr; first time step
 - 17520 &larr; numbers of time steps to complete the fist month (17520 to complete 365 days with a time step of 180 s).
 
-To compile Nemo:
+---
 
-```bash
-./makenemo -r ORCA2_ICE_PISCES -n NTATL025-NOW-ML00 -m X64_IRENE -j 4
-```
-Where:
-
-ORCA2_ICE_PISCES &rarr; Configuration name
-
-NTATL025-NOW-ML00 &rarr; Configuration folder
-
-X64_IRENE &rarr; IRENE configuration
