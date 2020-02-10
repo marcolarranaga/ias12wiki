@@ -65,7 +65,7 @@ The the .db file must include the following information:
 
 where:
 
-- 1 :arrow_left: number of month runnings
+- 1 &larr; number of month runnings
 - 1 <- first time step
 - 17520 < - numbers of time steps to complete the fist month (17520 to complete 365 days with a time step of 180 s).
 
