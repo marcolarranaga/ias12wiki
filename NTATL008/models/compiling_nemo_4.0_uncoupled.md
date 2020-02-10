@@ -27,17 +27,17 @@ Check the cpp file to see that it does not contain key_oasis3 and key_agrif:
 bld::tool::fppkeys key_diahth key_iomput key_mpp_mpi key_nosignedzero
 ```
 
+---
+**Esto debe estar en la secci'on run_nemo_uncoupled**
+
 Go to the NTATL008-ML00/EXP00 and modify the paths in the .ksh fikes:
 
-**AQUI VOY**
----
-
+The nemo inputs will be in:
 ```bash
-/ccc/work/cont005/gen7298/larranam/NTATL025/NOW/input/NEMO/
+/ccc/work/cont005/gen7298/larranam/NTATL008/NOW/input/NEMO/
 ```
 
-The WRF inputs will be incorporated in:
-
+The WRF inputs will be in:
 ```bash
 /ccc/store/cont005/gen7298/larranam/NTATL025/NOW/input/WRF/
 ```
@@ -53,6 +53,7 @@ The outputs will be located in:
 ```bash
 /ccc/store/cont005/legos/legos/NOW/NTATL025/<Name experiment>
 ```
+---
 
 Modify the .db file to include 1 (number of month runnings), 1 (first time step) and the numbers of time steps to complete the fist month (1488 to complete 31 days with a time step of 1800 s.
 

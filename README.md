@@ -7,7 +7,7 @@
 * [wrf4 1 3_uncoupled](NTATL008/models/compiling_wrf4.1.3_uncoupled.md)
 * [wrf4 1 3_coupled](NTATL008/models/compiling_wrf4.1.3_coupled.md)
 * [wps4.1.3](NTATL008/models/compiling_wps4.1.3.md)
-* [Compiling Nemo](NTATL008/models/compiling_nemo_uncoupled.md)
+* [Compiling Nemo_4.0_uncoupled](NTATL008/models/compiling_nemo_4.0_uncoupled.md)
 
 ### Initial and boundary conditions
 
