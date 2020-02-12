@@ -9,7 +9,7 @@
 
 #### Coupled models
 * [oasis3_mct](IAS12/models/compiling_oasis3-mct.md)
-* [xios 2.5](IAS12/models/compiling_xios-2.5.md)
+* [xios 2.5_withOASIS](IAS12/models/compiling_xios-2.5_withOASIS.md)
 * [wrf4 1 3_coupled](IAS12/models/compiling_wrf4.1.3_coupled.md)
 
 ### Initial and boundary conditions
