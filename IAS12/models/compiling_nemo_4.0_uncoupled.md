@@ -11,7 +11,7 @@ cp -r NTATL025-ML00 IAS12-ML00
 Erase the BLD and WORK folders in NTATL008-ML00
 
 ```bash
-cd IAS12AGRIF-I-NOW-ML00
+cd IAS12-ML00
 rm -rf BLD WORK
 ```
 
