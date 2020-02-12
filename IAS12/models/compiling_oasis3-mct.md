@@ -9,12 +9,12 @@ IAS12/models/oasis3-mct/util/make_dir
 Then:
 
 ```bash
-make
+make oasis3psmile -f TopMakefileOasis3
 ```
 
 The executable files will appear in:
 
 ```bash
-IAS12/models/oasis3-mct/bin
+IAS12/models/oasis3-mct/bin/lib/
 ```
 
