@@ -5,7 +5,7 @@ Download WRF 4.1.3 model from the site [wrf4.1.3_xios](https://github.com/masson
 Copy the WRF files in the work directory:
 
 ```bash
-/ccc/work/cont005/gen7298/larranam/IAS12/models/WRF/wrf4.1.3_xios_coupled/
+/ccc/work/cont005/gen7298/larranam/IAS12/models/wrf/wrf4.1.3_xios_coupled/
 ```
 
 Copy the [configure wrf](configure.wrf.md) file to the wrf4.1.3_xios_coupled folder

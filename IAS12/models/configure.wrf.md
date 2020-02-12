@@ -216,7 +216,7 @@ INCLUDE_MODULES =    $(MODULE_SRCH_FLAG) \
                       -I$(WRF_SRC_ROOT_DIR)/phys \
                       -I$(WRF_SRC_ROOT_DIR)/wrftladj \
                       -I$(WRF_SRC_ROOT_DIR)/chem -I$(WRF_SRC_ROOT_DIR)/inc \
-                      -I/ccc/cont005/home/legos/renaultl/Models/xios-2.5/inc \
+                      -I/ccc/work/cont005/gen7298/larranam/IAS12/models/xios/xios-2.5_withOASIS/inc \
                       -I$(OA3MCT_ROOT_DIR)/build/lib/mct \
                       -I$(OA3MCT_ROOT_DIR)/build/lib/psmile.MPI1 \
                       -I$(NETCDFFORTRAN_ROOT)/include \
