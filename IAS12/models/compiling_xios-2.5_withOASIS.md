@@ -1,5 +1,4 @@
 ## Compiling XIOS
-# FALTA REVISAR arch-X64_IRENE.env.orig
 
 Edit the files arch-X64_IRENE.env and arch-X64_IRENE.path that are located in:
 
