@@ -40,4 +40,9 @@ IAS12-NOW-ML00 &rarr; Configuration folder
 
 X64_IRENE &rarr; IRENE configuration
 
+To enable that nemo generate restart files:
 
+```bash
+cd tools
+./maketools -m X64_IRENE -n REBUILD_NEMO
+```
