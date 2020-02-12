@@ -6,13 +6,13 @@ To compile WRF:
 Copy the WRF files in the work directory:
 
 ```bash
-/ccc/work/cont005/gen7298/larranam/NTATL008/NOW/models/WRF/
+/ccc/work/cont005/gen7298/larranam/IAS12/models/wrf/
 ```
 
-To generate the configure.wrf file export the netCDF path: **<- ESTO FALTA**
+To generate the configure.wrf file export the netCDF path:
 
 ```bash
-export NETCDF=...
+export NETCDF=/ccc/products/netcdf-fortran-4.4.4/intel--17.0.4.196__openmpi--2.0.2/hdf5__parallel/
 ```
 
 Then run the configure file:

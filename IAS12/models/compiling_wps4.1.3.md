@@ -6,7 +6,7 @@ To compile WPS:
 Copy the WPS files in the work directory:
 
 ```bash
-/ccc/work/cont005/gen7298/larranam/NTATL008/NOW/models/WRF/
+/ccc/work/cont005/gen7298/larranam/IAS12/models/WRF/
 ```
 
 Add the configure.wps file in to the wps.4.1.3 folder and modify the WRF_DIR path.

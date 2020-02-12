@@ -4,7 +4,7 @@
 Edit in the arch-X64_IRENE file (there are .env .path and .fcm, noth sure which one) located in:
 
 ```bash
-NTATL025/NOW/models/xios-2.5/arch/
+IAS12/models/xios-2.5/arch/
 ```
 
 To compile execute:

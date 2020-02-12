@@ -3,7 +3,7 @@
 Edit paths in make.irene and make.inc files in:
 
 ```bash
-NTATL025/NOW/models/oasis3-mct/util/make_dir
+IAS12/models/oasis3-mct/util/make_dir
 ```
 
 Then:
@@ -15,6 +15,6 @@ make
 The executable files will appear in:
 
 ```bash
-NTATL025/NOW/models/oasis3-mct/bin
+IAS12/models/oasis3-mct/bin
 ```
 
