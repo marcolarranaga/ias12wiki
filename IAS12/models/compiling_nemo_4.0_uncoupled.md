@@ -8,7 +8,7 @@ From /IAS12/models/Nemo_4.0_release/cfgs/ copy a configuration folder to generat
 cp -r NTATL025-ML00 IAS12-ML00
 ```
 
-Erase the BLD and WORK folders in NTATL008-ML00
+Erase the BLD and WORK folders in IAS12-ML00
 
 ```bash
 cd IAS12-ML00

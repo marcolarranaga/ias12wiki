@@ -21,7 +21,8 @@ jpni        =   6      !  jpni   number of processors following i (set automatic
 jpnj        =   23     !  jpnj   number of processors following j (set automatically if < 1)
 ```
 
-In this example where used 138 processors $$(6*23=138)$$ 
+In this example where used 138 processors (<img src="https://render.githubusercontent.com/render/math?math=6 \times 23=138">)
+
 - Run nemo for a few time steps.
 - Go to the rebuild_nemo directory
 ```bash
@@ -31,6 +32,3 @@ cd nemo_4.0/tools/REBUILD_NEMO/
 ```bash
 ./rebuild_nemo <path mesh_mask files>/mesh_mask  <number of procesors used to run nemo>
 ```
-
-<script type="text/javascript" async
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">

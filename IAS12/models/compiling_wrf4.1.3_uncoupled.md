@@ -1,6 +1,7 @@
 ## Compiling WRF 4.1.3 for uncoupled case
 
-Download WRF model from the UCAR site
+Download WRF model from the UCAR site [wrf4.1.3_xios](https://github.com/massonseb/WRF).
+
 To compile WRF:
 
 Copy the WRF files in the work directory:

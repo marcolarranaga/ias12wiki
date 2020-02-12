@@ -14,10 +14,10 @@ Add the configure.wps file in to the wps.4.1.3 folder and modify the WRF_DIR pat
 To compile WPS run:
 
 ```bash
-cp configure.wps configure.wps.save
+mv configure.wps configure.wps.save
 ./clean -a
 ./clean a
-cp configure.wps.save configure.wps
+mv configure.wps.save configure.wps
 ./compile >& compile.log
 ```
 
