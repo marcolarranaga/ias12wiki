@@ -2,9 +2,10 @@
 
 Modify XIOS_HOME paths in Nemo_4.0_uncoupled/arch/CNRS/arch-X64_IRENE.fcm
 
-From /IAS12/models/Nemo_4.0_release/cfgs/ copy a configuration folder to generate a new one:
+Generate a new configuration folder:
 
 ```bash
+cd /IAS12/models/Nemo_4.0_release/cfgs/
 cp -r NTATL025-NOW-ML00 IAS12-NOW-ML00
 ```
 
