@@ -1,4 +1,3 @@
-# PhD wiki
 ## IAS12 Implementation
 ### Compiling numerical models in IRENE
 #### Uncoupled models

@@ -8,7 +8,7 @@ Copy the WRF files in the work directory:
 /ccc/work/cont005/gen7298/larranam/IAS12/models/wrf/wrf4.1.3_xios_coupled/
 ```
 
-Copy the [configure wrf](https://github.com/marcolarranaga/ias12wiki/tree/master/models/wrf4.1.3/compile/coupled) file to the wrf4.1.3_xios_coupled folder
+Copy the [configure.wrf](https://github.com/marcolarranaga/ias12wiki/tree/master/models/wrf4.1.3/compile/coupled) file to the wrf4.1.3_xios_coupled folder
 
 To compile run:
 

@@ -3,7 +3,7 @@
 To compile nemo tools:
 
 ```bash
-cd tools
+cd nemo_4.0/tools
 ./maketools -m X64_IRENE -n REBUILD_NEMO
 ```
 
@@ -11,6 +11,7 @@ cd tools
 
 ---
 ### Generate a mesk_mask.nc file
+
 - To generate the mesh_mask.nc file activate the ln_meshmask in the namelist_cfg:
 ```bash
 ln_meshmask = .true.   !   =T create a mesh file
