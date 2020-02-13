@@ -1,17 +1,9 @@
 ## Run nemo_4.0_uncoupled
 
-Go to the nemo_4.0_uncoupled/cfgs/<config_case>/EXP00 and modify the paths in the .ksh fikes:
+Go to the nemo_4.0_uncoupled/cfgs/<config_case>/EXP00 and modify include.ksh file:
 
-The nemo inputs will be in:
-```bash
-/ccc/scratch/cont005/gen7298/larranam/IAS12/inputs/nemo/
-```
-
-The outputs will be located in:
-
-```bash
-/ccc/store/cont005/gen7298/larranam/results/IAS12/<config_case>/
-```
+- A description of the parameters to modify can be found [here](Parameters_to_modify.db).
+- An example of the include.ksh file can be found [here](https://github.com/marcolarranaga/ias12wiki/tree/master/models/nemo4.0/run/uncoupled)
 
 Create a .db file with the corresponding configuration name, in this case: IAS12-ML001.db
 

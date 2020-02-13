@@ -22,7 +22,7 @@ Modify the name of cpp file to the to the new configuration folder name
 mv cpp_NTATL025-ML00.fcm cpp_IAS12-NOW-ML00.fcm
 ```
 
-Check the cpp file to see that it does not contain the key_agrif:
+Check the cpp file to see that it does not contain the key_agrif, the file just need to contain:
 
 ```bash
 bld::tool::fppkeys key_diahth key_iomput key_mpp_mpi key_nosignedzero key_oasis3
