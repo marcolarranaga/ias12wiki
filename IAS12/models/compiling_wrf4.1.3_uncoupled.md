@@ -10,7 +10,7 @@ Copy the WRF files in the work directory:
 /ccc/work/cont005/gen7298/larranam/IAS12/models/wrf/
 ```
 
-Add the [configure.wrf](configure.wrf_uncoupled.db) file in to the wrf.4.1.3 folder.
+Add the [configure.wrf](configure.wrf_uncoupled) file in to the wrf.4.1.3 folder.
 
 ```bash
 export NETCDF=/ccc/products/netcdf-fortran-4.4.4/intel--17.0.4.196__openmpi--2.0.2/hdf5__parallel/
