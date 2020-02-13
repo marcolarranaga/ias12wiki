@@ -11,6 +11,7 @@
 * [oasis3_mct](IAS12/models/compiling_oasis3-mct.md)
 * [xios 2.5_withOASIS](IAS12/models/compiling_xios-2.5_withOASIS.md)
 * [wrf4 1 3_coupled](IAS12/models/compiling_wrf4.1.3_coupled.md)
+* [nemo_4.0_coupled](IAS12/models/compiling_nemo_4.0_coupled.md)
 
 ### Initial and boundary conditions
 * [wrf4 1 3](IAS12/models/gen_init_bd_files_wrf4.1.3.md)
