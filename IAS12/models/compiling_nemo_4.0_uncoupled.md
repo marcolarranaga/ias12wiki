@@ -27,11 +27,13 @@ Check the cpp file to see that it does not contain key_oasis3 and key_agrif:
 bld::tool::fppkeys key_diahth key_iomput key_mpp_mpi key_nosignedzero
 ```
 
-To compile Nemo:
+To compile Nemo return to the folder Nemo_4.0_coupled and run makenemo:
 
 ```bash
+cd ..
 ./makenemo -r ORCA2_ICE_PISCES -n IAS12-ML00 -m X64_IRENE -j 4
 ```
+
 Where:
 
 ORCA2_ICE_PISCES &rarr; Configuration name
