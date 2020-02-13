@@ -1,4 +1,4 @@
-### Set of paths
+### Set of parameters
 - MAXSUB &larr; number of runs
 - NOCEAN &larr; number of precessors for the ocean model
 - NNODES &larr; number of nodes
