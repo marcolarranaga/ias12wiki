@@ -12,10 +12,6 @@ Copy the WRF files in the work directory:
 
 Add the [configure.wrf](https://github.com/marcolarranaga/ias12wiki/tree/master/models/wrf4.1.3/compile/uncoupled) file in to the wrf.4.1.3 folder.
 
-```bash
-export NETCDF=/ccc/products/netcdf-fortran-4.4.4/intel--17.0.4.196__openmpi--2.0.2/hdf5__parallel/
-```
-
 Then run the configure file:
 
 ```bash

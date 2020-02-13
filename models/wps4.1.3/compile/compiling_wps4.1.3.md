@@ -9,7 +9,7 @@ Copy the WPS files in the work directory:
 /ccc/work/cont005/gen7298/larranam/IAS12/models/WRF/
 ```
 
-Add the [configure.wps](configure.wps) file in to the wps.4.1.3 folder and modify the WRF_DIR path.
+Add the [configure.wps](https://github.com/marcolarranaga/ias12wiki/tree/master/models/wps4.1.3/compile) file in to the wps.4.1.3 folder and modify the WRF_DIR path.
 
 To compile WPS run:
 
