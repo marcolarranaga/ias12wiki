@@ -10,7 +10,7 @@ Copy the WRF files in the work directory:
 /ccc/work/cont005/gen7298/larranam/IAS12/models/wrf/
 ```
 
-Add the [configure.wrf](https://github.com/marcolarranaga/ias12wiki/tree/master/models/wrf4.1.3/compile/uncoupled) file in to the wrf.4.1.3 folder.
+Add the [configure.wrf](https://github.com/marcolarranaga/ias12wiki/tree/master/models/wrf4.1.3/compile/uncoupled/configure.wrf) file in to the wrf.4.1.3 folder.
 
 Then run the configure file:
 
