@@ -13,7 +13,7 @@
 * [nemo4.0_coupled](models/nemo4.0/compile/coupled/compiling_nemo_4.0_coupled.md)
 
 ### Initial and boundary conditions
-
+* [wrf4 1 3](models/wrf4.1.3/init_and_bd_data/init_and_bd_data.md)
 ### Running numerical models in IRENE
 * [nemo4.0_uncoupled](models/nemo4.0/run/uncoupled/run_nemo_4.0_uncoupled.md)
 

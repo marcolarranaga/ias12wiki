@@ -1,6 +1,6 @@
 ## Compiling Nemo - coupled case
 
-Modify XIOS_HOME paths in Nemo_4.0_coupled/arch/CNRS/arch-X64_IRENE.fcm
+Modify XIOS_HOME and OASIS_HOME paths in Nemo_4.0_coupled/arch/CNRS/arch-X64_IRENE.fcm
 
 Generate a new configuration folder:
 
