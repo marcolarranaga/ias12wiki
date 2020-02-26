@@ -29,7 +29,7 @@
 - PRECIP &larr; Base name of the NETcdf files with the precipitation data
 - SNOW &larr; Base name of the NETcdf files with the snow data
 - SHORT_WAVE &larr; Base name of the NETcdf files with the short wave data
-- LONG_WAVE &larr; Base name of the NETcdf files with the
+- LONG_WAVE &larr; Base name of the NETcdf files with the long wave data
 - U10 &larr; Base name of the NETcdf files with the meridional wind component data
 - V10 &larr; Base name of the NETcdf files with the zonal wind component data
 - TAUX &larr; Base name of the NETcdf files with the meridional wind stress component data
