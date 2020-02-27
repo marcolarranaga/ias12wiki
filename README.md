@@ -11,6 +11,7 @@
 * [xios2.5_withOASIS](models/xios2.5/compile/compiling_xios-2.5_withOASIS.md)
 * [wrf4.1 3_coupled](models/wrf4.1.3/compile/coupled/compiling_wrf4.1.3_coupled.md)
 * [nemo4.0_coupled](models/nemo4.0/compile/coupled/compiling_nemo_4.0_coupled.md)
+* [nemo4.0_coupled_withoutXIOS](models/nemo4.0/compile/coupled/compiling_nemo_4.0_coupled_withoutXIOS.md)
 
 ### Initial and boundary conditions
 * [wrf4 1 3](models/wrf4.1.3/init_and_bd_data/init_and_bd_data.md)
