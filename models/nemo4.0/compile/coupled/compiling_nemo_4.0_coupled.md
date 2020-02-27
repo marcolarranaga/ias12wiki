@@ -1,6 +1,7 @@
 ## Compiling Nemo - coupled case
 
-Modify XIOS_HOME and OASIS_HOME paths in Nemo_4.0_coupled/arch/CNRS/arch-X64_IRENE.fcm
+Modify XIOS_HOME and OASIS_HOME paths in Nemo_4.0_coupled/arch/CNRS/arch-X64_IRENE_fullOASISXIOS.fcm
+
 
 Generate a new configuration folder:
 
@@ -32,7 +33,7 @@ To compile Nemo return to the folder Nemo_4.0_coupled and run makenemo:
 
 ```bash
 cd ..
-./makenemo -r ORCA2_ICE_PISCES -n IAS12-NOW-ML00 -m X64_IRENE -j 4
+./makenemo -r ORCA2_ICE_PISCES -n IAS12-NOW-ML00 -m X64_IRENE_fullOASISXIOS -j 4
 ```
 
 Where:
