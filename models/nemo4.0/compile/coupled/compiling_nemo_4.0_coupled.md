@@ -42,5 +42,5 @@ ORCA2_ICE_PISCES &rarr; Configuration name
 
 IAS12-NOW-ML00 &rarr; Configuration folder
 
-X64_IRENE &rarr; IRENE configuration
+X64_IRENE_fullOASISXIOS &rarr; IRENE configuration
 
