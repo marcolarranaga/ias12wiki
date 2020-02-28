@@ -9,6 +9,7 @@
 #### Coupled models
 * [oasis3_mct](models/oasis3_mct/compile/compiling_oasis3-mct.md)
 * [xios2.5_withOASIS](models/xios2.5/compile/compiling_xios-2.5_withOASIS.md)
+* [wrf3.7_coupled](models/wrf3.7/compile/coupled/compiling_wrf3.7_coupled.md)
 * [wrf4.1 3_coupled](models/wrf4.1.3/compile/coupled/compiling_wrf4.1.3_coupled.md)
 * [nemo4.0_coupled](models/nemo4.0/compile/coupled/compiling_nemo_4.0_coupled.md)
 * [nemo4.0_coupled_withoutXIOS](models/nemo4.0/compile/coupled/compiling_nemo_4.0_coupled_withoutXIOS.md)

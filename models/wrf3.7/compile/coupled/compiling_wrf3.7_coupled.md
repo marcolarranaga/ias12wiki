@@ -1,9 +1,6 @@
 ## Compiling WRF 4.1.3_xios for coupled case
 
-Download WRF 4.1.3 model from the site [wrf4.1.3_xios](https://github.com/massonseb/WRF). Download the xios branch with:
-```bash
-git clone -b xios https://github.com/massonseb/WRF.git
-```
+Download WRF 4.1.3 model from the site [wrf4.1.3_xios](https://github.com/massonseb/WRF)
 
 Copy the WRF files in the work directory:
 
