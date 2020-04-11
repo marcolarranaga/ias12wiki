@@ -27,7 +27,7 @@ Check the cpp file to see that it does not contain key_oasis3 and key_agrif:
 bld::tool::fppkeys key_diahth key_iomput key_mpp_mpi key_nosignedzero
 ```
 
-To compile Nemo return to the folder Nemo_4.0_coupled and run makenemo:
+To compile Nemo return to the folder Nemo_4.0_uncoupled and run makenemo:
 
 ```bash
 cd ..
