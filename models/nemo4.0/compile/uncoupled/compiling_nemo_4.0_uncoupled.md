@@ -42,3 +42,11 @@ IAS12-NOW-ML00 &rarr; Configuration folder
 
 X64_IRENE &rarr; IRENE configuration
 
+Remeber to compile the REBUILD_NEMO tool pack:
+
+```bash
+cd nemo_4.0_uncoupled/tools
+./maketools -m X64_IRENE -n REBUILD_NEMO
+```
+
+

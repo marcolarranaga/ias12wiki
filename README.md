@@ -27,3 +27,7 @@
 * [bashr](irene/bashrc.md)
 * [Manage runs](irene/manage_runs.md)
 
+To add the path of the python functions:
+```bash
+sys.path.append(os.path.join("/ccc/work/cont005/gen7298/larranam/python_functions/marco_stuff"))
+```
