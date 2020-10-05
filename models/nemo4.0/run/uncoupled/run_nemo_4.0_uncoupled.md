@@ -29,6 +29,12 @@ ncap2 -O -s adatrj=0 ${filename} ${filename}
 ncap2 -O -s ntime=0 ${filename} ${filename}
 ncap2 -O -s time_counter[time_counter]=0 ${filename} ${filename}
 ```
+
+Rename the file, for example:
+```bash
+mv IAS12-ML05_00210624_restart.nc IAS12-ML00_00000000_restart.nc
+```
+
 Finaly:
 ```bash
 ccc_msub run_nemo
