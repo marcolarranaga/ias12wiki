@@ -31,6 +31,10 @@ ncap2 -O -s kt=0 ${filename} ${filename}
 ncap2 -O -s adatrj=0 ${filename} ${filename}
 ncap2 -O -s ntime=0 ${filename} ${filename}
 ncap2 -O -s time_counter[time_counter]=0 ${filename} ${filename}
+```
+
+The date from the last run can be changed by modifying ndastp:
+```bash
 ncap2 -O -s ndastp=${yyyy}${mm}${dd} ${filename} ${filename}
 ```
 
