@@ -22,9 +22,6 @@ where:
 Find the corresponding restart file and move it to the restart folder, then modify the file in order to set the time variables to 0:
 ```bash
 filename = <file_name>
-yyyy=<yyyy>
-mm=<mm>
-dd=<dd>
 
 ncks -C -O -x -v kt,ntime,adatrj,time_counter ${filename} ${filename}
 ncap2 -O -s kt=0 ${filename} ${filename}
@@ -35,7 +32,7 @@ ncap2 -O -s time_counter[time_counter]=0 ${filename} ${filename}
 
 The date from the last run can be changed by modifying ndastp:
 ```bash
-ncap2 -O -s ndastp=${yyyy}${mm}${dd} ${filename} ${filename}
+ncap2 -O -s ndastp=<yyyymmdd> ${filename} ${filename}
 ```
 
 Rename the file, for example:
