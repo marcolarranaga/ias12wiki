@@ -48,8 +48,26 @@ Example:
 67 385345 391296
 ```
 
-This example have a 450 seconds time step, therefore, the simulation will start at day 2007:
+This example have a 450 seconds time step, therefore, the simulation will start at day 2007 and ends at day 2038:
 
 <img src="https://render.githubusercontent.com/render/math?math=(385345-1)/(60*60/450*24)=2007">
+
+<img src="https://render.githubusercontent.com/render/math?math=391296/(60*60/450*24)=2038">
+
+Now that we have the initial and final dumber of days, we have to calculate the corresponding time
+step numbers with the new time step, for this case 400 seconds:
+
+<img src="https://render.githubusercontent.com/render/math?math=2007*(60*60/400*24)=433512">
+
+<img src="https://render.githubusercontent.com/render/math?math=2038*(60*60/400*24)=440208">
+
+Now we have te change the numbers in the .md file:
+
+```bash
+64 367873 373632 19980430
+65 373633 379584 19980531
+66 379585 385344 19980630
+67 433512 440208
+```
 
 
