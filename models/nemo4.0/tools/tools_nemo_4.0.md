@@ -50,6 +50,6 @@ Example:
 
 This example have a 450 seconds time step, therefore, the simulation will start at day 2007:
 
-(<img src="https://render.githubusercontent.com/render/math?math=385345-1/(60*60/450*24)">
+<img src="https://render.githubusercontent.com/render/math?math=(385345-1)/(60*60/450*24)=2007">
 
 
