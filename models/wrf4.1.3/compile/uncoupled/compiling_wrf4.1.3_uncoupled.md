@@ -12,11 +12,6 @@ Copy the WRF files in the work directory:
 
 Add the [configure.wrf](https://github.com/marcolarranaga/ias12wiki/tree/master/models/wrf4.1.3/compile/uncoupled/configure.wrf) file in to the wrf.4.1.3 folder.
 
-Then run the configure file:
-
-```bash
-./configure
-```
 To compile run:
 
 ```bash

@@ -1,4 +1,4 @@
-## Coupling masks and OASIS weights for intepolations
+## Coupling masks and OASIS inputs
 
 Download the tar file [Masks.tar.gz](https://github.com/marcolarranaga/ias12wiki/tree/master/preprocessing/Masks.tar.gz) with the scripts.
 
@@ -26,7 +26,7 @@ Run the script_make_file_oasis_IAS12.sh script to compute the OASIS input files:
 ./script_make_file_oasis_IAS12.sh
 ```
 
-The outputs files will be located in the outfiles folder.
+The outputs files will be located in the outfiles folder:
 ```bash
 grids.nc
 areas.nc
