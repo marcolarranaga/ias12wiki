@@ -14,6 +14,9 @@
 * [nemo4.0_coupled](models/nemo4.0/compile/coupled/compiling_nemo_4.0_coupled.md)
 * [nemo4.0_coupled_withoutXIOS](models/nemo4.0/compile/coupled/compiling_nemo_4.0_coupled_withoutXIOS.md)
 
+#### Preprocessing
+
+* [Coupling masks and OASIS weights for intepolations](preprocessing/coupling_masks_and_oasis_files.md)
 ### Initial and boundary conditions
 * [wrf4_1_3](models/wrf4.1.3/init_and_bd_data/init_and_bd_data.md)
 
