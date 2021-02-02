@@ -70,4 +70,74 @@ Now we have te change the numbers in the .md file:
 67 433512 440208
 ```
 
+To do this quickly we can use the following script (it must be executed in the case folder):
+
+```bash
+# Inputs:
+conf=IAS12-NOW
+expcase=ML02
+
+dtold=450
+dtnew=400
+
+restartfilepath=/ccc/store/cont005/gen7298/larranam/IAS12/results/now/${confcase}-R/
+#---
+
+confcase=${conf}-${expcase}
+
+dbfile=${expcase}.db
+
+nrun=$( tail -1 ${dbfile} | awk '{print $1}' );
+
+tstpiold=$( tail -1 ${dbfile} | awk '{print $2}' );
+tstpfold=$( tail -1 ${dbfile} | awk '{print $3}' );
+
+tstpioldm1=$(( tstpiold - 1 ))
+
+restartfile=`ls ${restartfilepath}/${confcase}*${tstpioldm1}_restart.nc`
+
+ndayinew=$(( tstpioldm1/(60*60/dtold*24) ))
+ndayfnew=$(( tstpfold/(60*60/dtold*24) ))
+
+tstpinew=$(( ndayinew*(60*60/400*24) ))
+tstpfnew=$(( ndayfnew*(60*60/400*24) ))
+
+# Modifying .db file
+\cp $dbfile ${dbfile}.bckp
+sed -i '$ d' ${dbfile}
+echo "${nrun} ${tstpinew} ${tstpfnew}" >> ${dbfile}
+#---
+
+\cp ${restartfile} ${restartfile}.bckp
+
+ncks -C -O -x -v kt,time_counter,rdt ${restartfile} ${restartfile}
+ncap2 -O -s kt=${tstpinew} ${restartfile} ${restartfile}
+ncap2 -O -s time_counter[time_counter]=${tstpinew} ${restartfile} ${restartfile}
+ncap2 -O -s ntime=${dtnew} ${restartfile} ${restartfile}
+
+tmpname=$(basename $restartfile)
+tmpname=${tmpname#"${confcase}_"}
+tmpname=${tmpname%"_restart.nc"}
+
+nchar=$(echo -n "$tmpname" | wc -c)
+
+printf -v tmpname "%0${nchar}d" ${tstpinew};
+
+restartfilenew=${restartfilepath}/${confcase}_${tmpname}_restart.nc
+
+mv -f $restartfile $restartfilenew
+
+
+	
+
+```
+It is then necessary to modify the variables kt, time_counter and rdt of the restart file:
+
+```bash
+kt = 385345 - 1
+time_counter = 385345 - 1
+rdt = 400
+
+The next step consists of check if the ratio between a day in secconds and the time step is multiple of the nn_trd variable in the namelist_cfg, if it is not, change the variable to the ratio value.
+
 
