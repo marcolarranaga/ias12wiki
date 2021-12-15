@@ -14,7 +14,7 @@ Erase the BLD and WORK folders in IAS12-NOW-ML00
 
 ```bash
 cd IAS12-NOW-ML00
-rm -rf BLD WORK
+rm -rf BLD
 ```
 
 Modify the name of cpp file to the to the new configuration folder name
