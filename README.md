@@ -14,6 +14,8 @@
 * [nemo4.0_coupled](models/nemo4.0/compile/coupled/compiling_nemo_4.0_coupled.md)
 * [nemo4.0_coupled_intel19](models/nemo4.0/compile/coupled/compiling_nemo_4.0_coupled_intel19.md)
 * [nemo4.0_coupled_withoutXIOS](models/nemo4.0/compile/coupled/compiling_nemo_4.0_coupled_withoutXIOS.md)
+* [ww3-6.07.1](models/ww3-6.07.1/compile/coupled/compiling_ww3-6.07.1.md)
+
 #### Preprocessing
 * [Coupling masks and OASIS inputs](preprocessing/coupling_masks_and_oasis_inputs.md)
 
