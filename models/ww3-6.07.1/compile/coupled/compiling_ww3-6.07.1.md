@@ -15,6 +15,13 @@ To clean use:
 
 Use the propper switch file to compile ww3 coupled with the ocean and the atmosphere, it must contain OASIS OASOCM OASACM.
 
+To setting up ww3:
 ```bash
-./w3_setup .. -c Intel -s OASOCM_OASACM
+./w3_setup .. -c IRENE -s IAS12_OCWATM
 ```
+
+To compile:
+```bash
+./w3_automake
+```
+
