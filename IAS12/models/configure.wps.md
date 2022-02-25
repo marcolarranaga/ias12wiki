@@ -60,3 +60,53 @@ COMPRESSION_INC        =  # intentionally left blank, fill in COMPRESSION_INC be
 #   Settings for Linux x86_64, Intel compiler    (dmpar)
 #
 #
+COMPRESSION_LIBS    = -L/ccc/products/ccc_users_env/compil/Atos_7__x86_64/jasper-1.900.1/intel--17.0.4.196/default/lib -ljasper -lpng -lz
+COMPRESSION_INC     = -I/ccc/products/ccc_users_env/compil/Atos_7__x86_64/jasper-1.900.1/intel--17.0.4.196/default/include
+FDEFS               = -DUSE_JPEG2000 -DUSE_PNG
+SFC                 =  ifort
+SCC                 =  icc -I$(JASPERINC)
+DM_FC               =  mpifort
+DM_CC               =  mpicc
+FC                  =  mpifort
+CC                  =  mpicc
+LD                  = $(FC)
+FFLAGS              = -FR -convert big_endian
+F77FLAGS            = -FI -convert big_endian
+FCSUFFIX            =
+FNGFLAGS            = $(FFLAGS)
+LDFLAGS             =
+CFLAGS              = -w
+CPP                 = /lib/cpp -P -traditional
+CPPFLAGS            = -D_UNDERSCORE -DBYTESWAP -DLINUX -DIO_NETCDF -DIO_BINARY -DIO_GRIB1 -DBIT32 -D_MPI
+ARFLAGS             =
+CC_TOOLS            =
+
+########################################################################################################################
+#
+#   Macros, these should be generic for all machines
+
+LN      =   ln -sf
+MAKE        =   make -i -r
+RM      =   /bin/rm -f
+CP      =   /bin/cp
+AR      =   ar ru
+
+.IGNORE:
+.SUFFIXES: .c .f .F .o
+
+#   There is probably no reason to modify these rules
+
+.c.o:
+    $(RM) $@
+    $(CC) $(CPPFLAGS) $(CFLAGS) -c $<
+
+.f.o:
+    $(RM) $@ $*.mod
+    $(FC) $(F77FLAGS) -c $< $(WRF_INCLUDE)
+
+.F.o:
+    $(RM) $@ $*.mod
+    $(CPP) $(CPPFLAGS) $(FDEFS) $(WRF_INCLUDE) $< > $*.f90
+    $(FC) $(FFLAGS) -c $*.f90 $(WRF_INCLUDE)
+#   $(RM) $*.f90
+
