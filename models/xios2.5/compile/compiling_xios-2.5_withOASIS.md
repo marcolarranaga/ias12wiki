@@ -9,6 +9,8 @@ The arch-X64_IRENE.env must be in blank.
 
 In the arch-X64_IRENE.path there mus be included the OASIS path.
 
+In the main directory, modify the path inside fcm_env.sh and link the file with fcm_env.ksh through a symbolic link.
+
 To compile execute:
 
 ```bash
