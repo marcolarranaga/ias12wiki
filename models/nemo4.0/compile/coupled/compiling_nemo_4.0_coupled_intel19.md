@@ -35,7 +35,7 @@ To compile Nemo return to the folder Nemo_4.0_coupled and run makenemo:
 
 ```bash
 cd ..
-./makenemo -r ORCA2_ICE_PISCES -n IAS12-NOW -m X64_IRENE_fullOASISXIOS -j 8 > log_build_nemo.txt
+./makenemo -r ORCA2_ICE_PISCES -n IAS12-NOW -m X64_IRENE -j 8 > log_build_nemo.txt
 ```
 
 Where:
